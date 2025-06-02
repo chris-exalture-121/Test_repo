@@ -1,0 +1,49 @@
+{
+  "name": "google-drive-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "node scripts/start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@canva-sdks/app-components": "^1.0.0-beta.google-drive.34",
+    "@canva/app-ui-kit": "^4.0.0",
+    "@canva/design": "^2.1.0",
+    "@canva/user": "^2.0.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^10.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "short-unique-id": "^5.2.0",
+    "terser-webpack-plugin": "^5.3.10",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.5.4",
+    "webpack": "^5.93.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.13",
+    "cli-table3": "^0.6.3",
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mini-css-extract-plugin": "^2.7.6",
+    "source-map-loader": "^4.0.2",
+    "style-loader": "^3.3.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "yargs": "^17.7.2"
+  }
+}
